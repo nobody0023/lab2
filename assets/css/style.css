@@ -1,0 +1,265 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.scope {
+    background: #000000;
+    height: 0.5em;
+    width: 0.5em;
+    position: relative;
+    left: 30px;
+    top: 0.4em;
+    display: inline-block;
+}
+
+.logo {
+    max-height: 170px;
+    vertical-align: middle;
+    display: block;
+    position: absolute;
+    top: -38px;
+    left: -19px;
+}
+.header{
+    background: #ccffcc;
+    position: relative;
+}
+
+.home {
+
+    display: block;
+   float: left;
+    background: #ccffcc;
+       
+}
+ article{
+    margin-top: 200px;
+}
+
+.enter{
+display: block;
+float: right;
+    
+}
+.enter div{
+    color: aliceblue;
+}
+.guest_enter{
+ float: right;   
+}
+.text {
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    bottom: 1.7em;
+    color: #03fdfd;
+}
+
+
+.photo {
+    position: relative;
+    left: 20em;
+    top: 25px;
+    margin-bottom: 2em;
+}
+
+.link {
+
+    font-size: 25px;
+    left: 35em;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    bottom: 1.5em;
+    margin-top: 15px;
+}
+
+.line {
+
+    font-size: 30px;
+    left: 29.2em;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    bottom: 1.3em;
+}
+
+.tg {
+    border-collapse: collapse;
+    color: #000;
+}
+
+
+.tg td {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Consolas", sans-serif;
+    color: #000000;
+    font-size: 22px;
+    padding: 12px 17px;
+    word-break: normal;
+    text-align: center;
+}
+
+.tg .tg-top {
+    background: #b3d9ff;
+    color: white;
+    font-weight: bold;
+}
+
+
+.modal {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modal-dialog {
+    position: relative;
+    width: 400px;
+    margin: 30px auto;
+}
+
+
+.modal-content {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #000000;
+}
+
+
+.modal-home {
+    display: flex;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    justify-content: space-between;
+    background: #ffffff;
+    margin: 0;
+}
+
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.close {
+    float: right;
+    font-size: 24px;
+    font-weight: 700;
+    color: #b3d9ff;
+}
+
+
+.modal-body {
+    padding: 15px;
+}
+
+.sg {
+    font-family: "Consolas", sans-serif;
+    color: #000000;
+    font-size: 22px;
+    padding: 5px;
+    word-break: normal;
+}
+
+.sg td {
+    padding: 5px;
+}
+
+.modal-footer {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.btn {
+    background: #b3d9ff;
+    font-size: 18px;
+    border-radius: 10%;
+    padding: 10px 17px;
+    border: 1px solid;
+    color: white;
+}
+
+.admin_inform{
+    font-size: 22px;
+    border: 1px solid #000000;
+    padding: 12px 17px;
+    color: #031124;
+    width: 12em;
+    margin: 5px;
+    display: table;
+}
+
+.tg .tg-user{
+    background: #ffffff;
+}
+
+.inform{
+    font-size: 22px;
+    border: 1px solid #000000;
+    padding: 12px 17px;
+    color: #031124;
+    width: 10em;
+    background: #ffffff;
+}
+
+.register{
+    padding: 12px 16px;
+    width: 18em;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid;
+    margin: 1.5em;
+    display: block;
+}
+
+.back_btn {
+    background: #b3d9ff;
+    font-size: 19px;
+    padding: 10px 17px;
+    border: 1px solid;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ubtn {
+    background: #b3d9ff;
+    font-size: 19px;
+    padding: 10px 17px;
+    border: 1px solid;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+
+.er {
+    font-size: 28px;
+    color: red;
+}
